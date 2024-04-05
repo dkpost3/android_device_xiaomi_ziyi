@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureResZiyi \
     FrameworksResZiyi \
     NfcResZiyi \
     SettingsProviderResZiyi \
