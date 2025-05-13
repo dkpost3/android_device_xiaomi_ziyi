@@ -51,6 +51,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=W)
 endif
 
+# Light
+$(call soong_config_set,xiaomi_sm8450_sensor_notifier,extension_lib,//device/xiaomi/ziyi:libsensor-notifier-ext-light)
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResZiyi \
