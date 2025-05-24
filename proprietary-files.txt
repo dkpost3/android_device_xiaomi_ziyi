@@ -1253,6 +1253,7 @@ product/etc/displayconfig/display_id_4630946545580055170.xml:vendor/etc/displayc
 vendor/etc/display/qdcm_calib_data_xiaomi_36_02_0b_cmd_mode_dsc_dsi_panel.json
 vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json
 vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0c_cmd_mode_dsc_dsi_panel.json
+vendor/lib64/libdisplayconfig.qti.so
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
