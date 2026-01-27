@@ -13,6 +13,9 @@ include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 # Inherit from the proprietary version
 include vendor/xiaomi/ziyi/BoardConfigVendor.mk
 
+# Inherit from proprietary files for miuicamera
+include device/xiaomi/miuicamera-ziyi/BoardConfig.mk
+
 DEVICE_PATH := device/xiaomi/ziyi
 
 # Kernel
