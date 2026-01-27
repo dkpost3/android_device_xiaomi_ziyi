@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/ziyi/ziyi-vendor.mk)
 
+# call gamebar
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 #Euicc
 $(call inherit-product, hardware/xiaomi/packages/Euicc/euicc.mk)
 
