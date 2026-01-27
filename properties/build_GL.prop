@@ -5,5 +5,5 @@ ro.product.odm.brand=Xiaomi
 ro.product.odm.device=ziyi
 ro.product.odm.manufacturer=Xiaomi
 ro.product.odm.model=2210129SG
-ro.product.odm.name=ziyi
+ro.product.odm.name=ziyi_global
 ro.product.mod_device=ziyi_global
