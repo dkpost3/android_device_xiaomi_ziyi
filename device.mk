@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/ziyi/ziyi-vendor.mk)
 
+#Euicc
+$(call inherit-product, hardware/xiaomi/packages/Euicc/euicc.mk)
+
 # Call the MiuiCamera setup
 $(call inherit-product, device/xiaomi/miuicamera-ziyi/device.mk)
 $(call soong_config_set,camera, package_name, com.android.camera)
