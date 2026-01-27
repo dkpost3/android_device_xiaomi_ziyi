@@ -29,6 +29,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/resourcemanager_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_idp.xml \
     $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
+# Logging
+SPAMMY_LOG_TAGS := \
+    MiStcImpl \
+    SDM \
+    SDM-histogram \
+    SRE \
+    SensorService \
+    WifiHAL \
+    cnss-daemon \
+    libcitsensorservice@2.0-impl \
+    libsensor-displayalgo \
+    libsensor-parseRGB \
+    libsensor-ssccalapi \
+    sensors \
+    vendor.qti.hardware.display.composer-service \
+    vendor.xiaomi.sensor.citsensorservice@2.0-service
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+PRODUCT_VENDOR_PROPERTIES += \
+    $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=W)
+endif
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResZiyi \
