@@ -1256,6 +1256,9 @@ vendor/firmware/a662_zap.elf
 vendor/firmware/a662_zap.mbn
 vendor/firmware/a662_zap.mdt
 
+# Media
+vendor/etc/media_codecs_system_default.xml
+
 # NFC configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
