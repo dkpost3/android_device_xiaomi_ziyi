@@ -24,10 +24,10 @@ $(call soong_config_set,camera,package_name,com.android.camera)
 PRODUCT_PACKAGES += \
     firmware_aw_cali.bin_symlink
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/mixer_paths_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml \
-    $(LOCAL_PATH)/audio/resourcemanager_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_idp.xml \
-    $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/audio/mixer_paths_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml \
+#    $(LOCAL_PATH)/audio/resourcemanager_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_idp.xml \
+#    $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
 # Logging
 SPAMMY_LOG_TAGS := \

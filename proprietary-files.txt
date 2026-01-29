@@ -1,8 +1,25 @@
 # All unpinned blobs below are extracted from ziyi OS2.0.5.0.VLLMIXM
 
 # ACDB
-vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb:vendor/etc/acdbdata/diwali_idp/Forte_acdb_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:vendor/etc/acdbdata/diwali_idp/Forte_workspaceFileXml.qwsp
+vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
+
+# Audio Config
+vendor/etc/audio_policy_engine_configuration_mi.xml:vendor/etc/audio_policy_engine_configuration.xml
+vendor/etc/audio_policy_engine_default_stream_volumes.xml
+vendor/etc/audio_policy_engine_product_strategies.xml
+vendor/etc/audio/sku_diwali/audio_effects.conf
+vendor/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml
+vendor/etc/audio/sku_diwali/mixer_paths_diwali_idp_sku1.xml
+vendor/etc/audio/sku_diwali/mixer_paths_diwali_qrd.xml
+vendor/etc/audio/sku_diwali/mixer_paths_diwali_qrd_sku1.xml
+vendor/etc/audio/sku_diwali/mixer_paths_overlay_dynamic.xml
+vendor/etc/audio/sku_diwali/mixer_paths_overlay_static.xml
+vendor/etc/audio/sku_diwali/resourcemanager_diwali_idp.xml
+vendor/etc/audio/sku_diwali/resourcemanager_diwali_idp_sku1.xml
+vendor/etc/audio/sku_diwali/resourcemanager_diwali_qrd.xml
+vendor/etc/audio/sku_diwali/resourcemanager_diwali_qrd_sku1.xml
+vendor/etc/audio/sku_diwali/resourcemanager_upd.xml
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin
