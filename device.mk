@@ -18,7 +18,7 @@ $(call inherit-product, hardware/xiaomi/packages/Euicc/euicc.mk)
 
 # Call the MiuiCamera setup
 $(call inherit-product, device/xiaomi/miuicamera-ziyi/device.mk)
-$(call soong_config_set,camera, package_name, com.android.camera)
+$(call soong_config_set,camera,package_name,com.android.camera)
 
 # Audio
 PRODUCT_PACKAGES += \
